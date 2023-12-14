@@ -1,0 +1,13 @@
+# Descarga de la imagen. Podemos descargarnos la version que queramos
+>>> docker pull ubuntu
+
+# Lo ejecutamos en la powershell en la que estamos
+>>> docker run --name ubuntu-container -it ubuntu
+
+# Si paramos el container.
+# Lo encendemos. Podemos encenderlo en docker desktop
+>>> docker start ubuntu-container
+
+# Nos conectamos a él en nuestra consola (tambien podemos entrar al container
+desde docker desktop)
+>>> docker exec -it ubuntu-container2 /bin/bash

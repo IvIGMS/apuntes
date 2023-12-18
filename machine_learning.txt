@@ -1,0 +1,6 @@
+Existen diferentes formas de clasificar los sistemas de machine learning
+
+Aprendizaje supervisado y no supervisado. En el supervisado entramos al modelo con datos de los cuales ya sabemos el resultado que queremos buscan, el no supervisado no lo sabe, simplemente busca patrones en datos que le pasamos.
+
+Aprendizaje en batch y online. En el batch le pasamos toda la experiencia y lo entrenamos de una, si hay nuevos datos hay que volver a entrenarlo de una, se usa para datasets pequeños. El online vamos entrenando al model con subconjuntos de
+datos y vamos probando a la vez que vaya funcionando correctamente, es muy importante asegurarse que los datos son de calidad. Se usa para datasets grandes. (importante, no le damos todos los datos de una, poco a poco)

@@ -4,3 +4,6 @@ Aprendizaje supervisado y no supervisado. En el supervisado entramos al modelo c
 
 Aprendizaje en batch y online. En el batch le pasamos toda la experiencia y lo entrenamos de una, si hay nuevos datos hay que volver a entrenarlo de una, se usa para datasets pequeños. El online vamos entrenando al model con subconjuntos de
 datos y vamos probando a la vez que vaya funcionando correctamente, es muy importante asegurarse que los datos son de calidad. Se usa para datasets grandes. (importante, no le damos todos los datos de una, poco a poco)
+
+Aprendzaje basado e instancias o en modelos. En modelos es como vemos practicamente en otros sitios y en instancias el algortimo sabe los detalles de cada registro del dataset y cuando le pasamos otro se fija en que hay a su alrededor para tomar
+una decisión, se basa en similitud con los datos de entrenamiento.

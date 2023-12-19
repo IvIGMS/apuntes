@@ -9,4 +9,6 @@ Aprendzaje basado e instancias y en modelos. En modelos es como vemos practicame
 una decisión. Se basa en una medida de similitud con los datos de entrenamiento, no crea ninguna función hipótesis.
 
 Regresión líneal: valores continuos.
+  - Regresión lineal univariable
+  - Regresión lineal multivariable
 Regresión logística: valores discretos, clasificación.
